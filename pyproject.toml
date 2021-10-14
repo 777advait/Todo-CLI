@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "repl_python3_TalkativeOddballFrontend"
+name = "Todo-CLI"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Advait Jadhav"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
