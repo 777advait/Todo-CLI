@@ -60,7 +60,7 @@ Whenever you create a list you will be prompted to add your first task to it! Bu
 
 ### Viewing tasks
 
-Well, now that you have added tasks to your lists you might want to view the added tasks, `todo ls` will make it easier as it also shows tasks pending and tasks completed.
+Well, now that you have added tasks to your lists you might want to view the added tasks, `todo ls` displays your completed and pending tasks as well at the same time.
 
 ![todo ls](https://user-images.githubusercontent.com/76993204/137257344-56642367-c9e6-4f45-b393-e694743a1619.png)
 ![todo ls](https://user-images.githubusercontent.com/76993204/137257341-1fef117f-3d28-4ea7-875e-9ad21bd61b1e.png)
@@ -74,7 +74,7 @@ Adding tasks isn't enough, you need to complete them as well and if you have alr
 
 ### Deleting tasks
 
-While creating a list you might encounter typos because of the super-high typing speed or eventually you might have completed all the tasks from a list. In such scenarios, you would no longer need the list and must be willing to delete it. In order to do so, use `todo delete` command this will load up an interactive menu of all your lists(choose wisely because changes can't be reverted!).
+While creating a list you might encounter typos because of the super-high typing speed or eventually you might have completed all the tasks from a list. In such scenarios, you would no longer need that list and must be willing to delete it. In order to do so, use `todo delete` command this will load up an interactive menu of all your lists(choose wisely because changes can't be reverted!).
 
 ![todo delete](https://user-images.githubusercontent.com/76993204/137257568-9c17460a-94eb-47d2-8d41-d8c0a251a0ea.png)
 
