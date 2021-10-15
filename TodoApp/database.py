@@ -87,11 +87,7 @@ class Database(): # database class
 
 	def delete(self, l_name): # deletes the selected table
 		with conn:
-			cur.execute(f"DROP TABLE {l_name}")
-
-def analyze(l_name):
-	res = cur.execute(f'SELECT * FROM {l_name}').fetchall()
-	return res
+			cur.execute(f"DROP TABLE {l_name}"
 
 def get_tables(): # returns a list of strings of tables in database
 	result = cur.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
